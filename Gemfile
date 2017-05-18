@@ -19,6 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#Figaro for Environment Variables
+gem 'figaro'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -35,6 +38,12 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 5.0.5'
 # Use Lines Engine for the blog
 gem 'lines-engine', '~> 1.2.1'
+
+# Add mini Magik for image editing
+gem "mini_magick"
+
+# Add Fog for S3 upload
+gem "fog"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
