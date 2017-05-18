@@ -1,0 +1,53 @@
+###################################
+### GENERAL, HEADER & META TAGS ###
+###################################
+
+logo: ""                                                                        # Logo for your blog. Leave empty if you don't have one
+blog_name: "FollowFintech"                                                              # Give your blog a meanungful name.
+title: "FollowFintech - Following the Hong Kong Fintech Scene"             # Give your blog a meaningful title. This is used for the HTML title attribute
+title_short: "FollowFintech"                                                            # Place the name of your blog or a short title here
+short_description: "A blog following the Hong Kong Fintech Scene"         # Short description for your blog
+meta_description: "A blog following the Hong Kong Fintech Scene"  # meta description tag
+meta_author: "James Osborn"                                                         # meta tag for author
+keywords: "Fintech, Blog, FollowFintech, James Osborn, Financial Services, FS, Blockchain, Bitcoin, Peer to Peer, P2P, Peer-to-Peer"                                          # your keywords
+
+
+##############
+### SOCIAL ###
+##############
+
+# Your Twitter and Google+ profile URL
+# Leave empty if you don't want to display inside the footer
+twitter_url: 'http://twitter.com/jamesosb'
+
+
+#################
+### ATOM FEED ###
+#################
+
+feed_title: ""        # give your feed a title
+feed_logo: "" # full URL to the feed logo. Aspect ratio should be 2:1
+feed_favicon: "" # full URL to the favicon. Aspect ratio should be 1:1
+
+
+#####################
+### APP SPECIFICS ###
+#####################
+
+refresh_sitemap: false
+
+articles_per_page: 10 # Pagination: How many articles should be desplayed per page?
+
+# Your apps secret token. Generate a new one with 'rake secret' and paste it below
+secret_token: Rails.application.secrets.app_secret_token_blog
+
+# Environment dependent configuration. Place your URLs here
+development:
+  host: "localhost:3000"
+  from_email: 'noreply@example.com'
+test:
+  host: "test.local"
+  from_email: 'noreply@example.com'
+production:
+  host: "blog.opoloo.com"
+  from_email: 'noreply@example.com'
