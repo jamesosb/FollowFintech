@@ -1,0 +1,15 @@
+{
+  "name": "FollowFintech",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
