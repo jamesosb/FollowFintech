@@ -44,7 +44,7 @@ class PictureUploader < CarrierWave::Uploader::Base
     %w(jpg jpeg gif png)
   end
 
-  def root
-    Rails.root.join 'public/'
-  end
+#  def root
+#    Rails.root.join 'public/'
+#  end
 end

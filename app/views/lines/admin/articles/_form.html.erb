@@ -29,9 +29,7 @@
           <div class="btn-remove-hero<%= " show" if @article.hero_image? || @article.short_hero_image %>"><%= t('lines.buttons.remove_hero_image') %></div>
           <%= f.label :hero_image, t('lines.buttons.upload_image') %>
           <div class="hero-images">
-            <% Lines::Article::HERO_IMAGES.each_with_index do |h, i| %>
-              <img src="<%= "/heroes/#{h}" %>" alt="" class="<%= 'selected-hero-image' if ('/heroes/' + h) == @article.short_hero_image %>" /> 
-            <% end %>
+
             <%= f.hidden_field :short_hero_image, class: "short-hero-image-cache" %>
           </div>
         </div>

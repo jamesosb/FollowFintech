@@ -5,9 +5,9 @@
 require 'carrierwave'
 require 'carrierwave/orm/activerecord'
 
-module Lines
+module Lines  
   class Picture < Lines::ApplicationRecord
-    # Associations
+    # Associations    
     belongs_to :article, touch: true
 
     # Mount carrierwave picture uploader
