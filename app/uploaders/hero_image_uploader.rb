@@ -19,22 +19,6 @@ class HeroImageUploader < CarrierWave::Uploader::Base
 
   process :resize_to_limit => [960, 960]
 
-  version :large do
-    process resize_to_limit: [800, 800]
-  end
-
-  version :medium, :from_version => :large do
-    process resize_to_limit: [500, 500]
-  end
-
-  version :thumb, :from_version => :medium do
-    process resize_to_fit: [100, 100]
-  end
-
-  version :square do
-    process :resize_to_fill => [500, 500]
-  end
-
   # Returns URL for image-asset
   def default_url
     "/assets/heroes/" + [filename].compact.join('_')
