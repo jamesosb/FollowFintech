@@ -1,8 +1,7 @@
 ###################################
 ### GENERAL, HEADER & META TAGS ###
 ###################################
-
-logo: ""                                                                        # Logo for your blog. Leave empty if you don't have one
+logo: ""                                                                      # Logo for your blog. Leave empty if you don't have one
 blog_name: "FollowFintech"                                                              # Give your blog a meanungful name.
 title: "FollowFintech - Following the Hong Kong Fintech Scene"             # Give your blog a meaningful title. This is used for the HTML title attribute
 title_short: "FollowFintech"                                                            # Place the name of your blog or a short title here

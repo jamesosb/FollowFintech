@@ -10,8 +10,16 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
+
+//= require rails-ujs
+//= require jquery3
 //= require jquery_ujs
+//= require jquery-ui
 //= require lines/viewer
 //= require lines/admin/navbar
 
+//= require turbolinks
+//= require react
+//= require react_ujs
+//= require components
+//= require_tree .
